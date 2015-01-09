@@ -11,5 +11,8 @@
 	"peerDependencies": {
 		"bower": "*",
 		"grunt-cli": "*"
+	},
+	"browserify": {
+		"transform": "deamdify"
 	}
 }
